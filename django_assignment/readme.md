@@ -34,8 +34,8 @@ This project is a backend application built using Django and Django Rest Framewo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/text-summarizer-backend.git
-   cd text-summarizer-backend
+   git clone https://github.com/stunner007-ir/VarsityPro.git
+   cd django_assignment
    ```
 
 2. **Create and activate a virtual environment:**
@@ -72,7 +72,7 @@ This project is a backend application built using Django and Django Rest Framewo
 6. **Start Celery worker:**
 
     ```bash
-    celery -A text_summarizer worker --loglevel=info
+    celery -A django_assignment worker --loglevel=info
     ```
 
 ### Access the API at http://localhost:8000/
